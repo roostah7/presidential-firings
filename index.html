@@ -10,22 +10,22 @@
      SOCIAL SHARING META TAGS
      IMPORTANT: After you set up GitHub Pages, replace the URL
      in og:url and og:image below with your actual page URL.
-     Default assumes username "brycecrabb" and repo "presidential-firings".
+     Configured for username "roostah7" and repo "presidential-firings".
      ============================================================ -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://brycecrabb.github.io/presidential-firings/">
+<meta property="og:url" content="https://roostah7.github.io/presidential-firings/">
 <meta property="og:title" content="Forced Departures of Senior Presidential Appointees, FDR through Trump 2">
 <meta property="og:description" content="Every Cabinet secretary, senior White House staffer, and FBI Director fired or forced out by every U.S. president since FDR. 27 terms ranked by who was worst at hiring.">
-<meta property="og:image" content="https://brycecrabb.github.io/presidential-firings/preview.png">
+<meta property="og:image" content="https://roostah7.github.io/presidential-firings/preview.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Bar chart showing forced departures of senior presidential appointees, FDR through Trump 2. Trump's first term has the highest count at 30.">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://brycecrabb.github.io/presidential-firings/">
+<meta name="twitter:url" content="https://roostah7.github.io/presidential-firings/">
 <meta name="twitter:title" content="Forced Departures of Senior Presidential Appointees, FDR through Trump 2">
 <meta name="twitter:description" content="Every Cabinet secretary, senior White House staffer, and FBI Director fired or forced out by every U.S. president since FDR. 27 terms ranked.">
-<meta name="twitter:image" content="https://brycecrabb.github.io/presidential-firings/preview.png">
+<meta name="twitter:image" content="https://roostah7.github.io/presidential-firings/preview.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -927,11 +927,12 @@ new Chart(ctx1, {
             label: {
               display: true,
               content: 'Mean ' + meanCount.toFixed(2),
-              position: 'end',
+              position: 'start',
               backgroundColor: 'rgba(0,0,0,0)',
               color: theme.textSoft,
               font: { size: 11, weight: '600' },
               padding: 4,
+              xAdjust: 36,
               yAdjust: -10
             }
           }
